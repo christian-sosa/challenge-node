@@ -1,7 +1,7 @@
 /* eslint-disable array-callback-return */
 const express = require('express')
 const app = express()
-const sequelize = require('./db')
+const sequelize = require('./models/db')
 const Post = require('./models/post')
 const bp = require('body-parser')
 
